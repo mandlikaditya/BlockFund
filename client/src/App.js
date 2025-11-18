@@ -14,7 +14,7 @@ const CrowdfundingApp = () => {
   const [gasPrice, setGasPrice] = useState(0);
   const [networkStats, setNetworkStats] = useState({ blockNumber: 0, networkId: 0 });
 
-  const CONTRACT_ADDRESS = "0x2Fa7FBaF13C0A18dc97B1bBac3c7DA0857a7e2a0";
+  const CONTRACT_ADDRESS = "0x9e6A95b7421e1e68DEDBb5D2e9FCfA715b2AA2aa"; // REPLACE WITH ACTUAL DEPLOYED ADDRESS
 
   const contractABI = [
     {"inputs":[{"internalType":"string","name":"_title","type":"string"},{"internalType":"string","name":"_description","type":"string"},{"internalType":"uint256","name":"_goal","type":"uint256"},{"internalType":"uint256","name":"_duration","type":"uint256"}],"name":"createCampaign","outputs":[],"stateMutability":"nonpayable","type":"function"},
